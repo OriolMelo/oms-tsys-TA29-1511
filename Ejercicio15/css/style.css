@@ -1,0 +1,9 @@
+.alfabetico{
+    list-style: lower-latin;
+    list-style-position: inside;
+}
+
+.romano{
+    list-style: upper-roman;
+    list-style-position: inside;
+}
