@@ -1,0 +1,90 @@
+body{
+    background-image: url("../img/ac.jpg");
+}
+
+.conjunto{
+    float: left;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    height: 160px;
+    width: 160px;
+    border: 1px solid black;
+    float: left;
+}
+
+.img1{
+    background-image: url("../img/back_mantel.jpg");
+}
+
+.img2{
+    background-image: url("../img/back_mantel.jpg");
+    background-repeat: repeat;
+    background-origin: padding-box;
+    background-clip: content-box;
+
+}
+
+.img3{
+    background-image: url("../img/back_mantel.jpg");
+    background-size: 100%;
+}
+
+.img4{
+    background-image: url("../img/back_mantel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-color: white;
+}
+
+.img5{
+    background-image: url("../img/dh.jpg");
+    background-size: contain;
+}
+
+.img6{
+    background-image: url("../img/dh.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-color: white;
+}
+
+.img7{
+    background-image: url("../img/dh_2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin:border-box;
+    background-position: center;
+    background-color: white;
+}
+
+.img8{
+    background-image: url("../img/dh_3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin:border-box;
+    background-position: center;
+    background-color: white;
+}
+
+.img9{
+    background: linear-gradient(to right, rgb(184, 255, 104), rgb(51, 88, 8));
+}
+
+.img10{
+    background: linear-gradient(to bottom, rgb(255, 188, 161), rgb(153, 56, 18) 80%, rgb(255, 188, 161) 100%);
+}
+
+.img11{
+    background: linear-gradient(to bottom, rgb(252, 255, 249), rgb(11, 88, 11));
+}
+
+.img12{
+    background: linear-gradient(to top, rgb(11, 88, 11, 1), rgba(11, 88, 11, 0));
+}

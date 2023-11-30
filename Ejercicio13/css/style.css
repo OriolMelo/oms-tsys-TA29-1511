@@ -1,0 +1,45 @@
+body{
+    font-weight: bold;
+}
+
+table{
+    border: outset 3px rgb(184, 184, 184);
+}
+
+td{
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: larger;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,1);
+    text-align: center;
+}
+
+caption{
+    font-size:small;
+}
+
+tr:first-child{
+    background-color: rgb(155, 243, 160);
+}
+
+#celda2{
+    background-color: cyan;
+    padding-left: 2px;
+    text-align: left;
+}
+
+#celda6{
+    background-color:rgb(247, 163, 255);
+    padding-right: 2px;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.centro{
+    color: red;
+    border-right: 1px solid rgb(201, 65, 65);
+    border-bottom: 1px solid rgb(201, 65, 65);
+    box-shadow: inset 1px 1px 0px 0px rgb(119, 0, 0);
+}

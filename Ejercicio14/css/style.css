@@ -1,0 +1,27 @@
+body{
+    background-image: url("../img/pinguinos.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 30vw 25vh; */
+    background-position: center 200px;
+
+}
+
+table{
+    position:absolute;
+    left: 530px;
+    top: 410px;
+    border: outset 3px rgb(184, 184, 184);
+    background-color: rgb(221, 222, 135);
+}
+
+td, th{
+    padding-left: 180px;
+    padding-right: 180px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,1);
+}
+
+th{
+    background-color: white;
+}

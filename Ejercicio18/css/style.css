@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(127, 212, 238);
+}
+
+div{
+    margin: 20px;
+    padding: 10px;
+}
+
+.anterior, .posterior{
+    height: 100px;
+    width: 200px;
+    border: 2px solid blue;
+    background: url("../img/f01.png") bottom repeat-x, url("../img/f02.png") bottom, url("../img/f03.png") top repeat-x;
+}
+
+.prueba{
+    height: 300px;
+    width: 400px;
+    margin-left: 40px;
+    border: 5px solid red;
+    background: url("../img/f01.png") bottom repeat-x, url("../img/f02.png") bottom no-repeat, url("../img/f03.png") top repeat-x;
+}
